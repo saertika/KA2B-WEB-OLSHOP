@@ -193,16 +193,12 @@ header .icons a:hover{
 }
 
 .products .box-container {
-    background-color: white; /* Latar belakang sementara */
+    background-color: white; 
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: space-between;
 }
-
-
-
-
 
 .products .box-container .box{
     flex: 1 1 30rem;
@@ -350,9 +346,6 @@ background: #333;
     resize: none;
  }
 
-
-
-
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -360,21 +353,14 @@ background: #333;
    
     float: left;
     text-align: center;
-    margin: 0 auto;  /* Pastikan seluruh container terpusat */
-    margin-left: 10%; /* Memberikan margin kiri untuk menggeser ke kanan */
+    margin: 0 auto;  
+    margin-left: 10%; 
 }
-
-
 
 .footer .box-container .box{
   
    padding: 20px;
    box-sizing: border-box;
-   
-   
-  
-
-
 }
 
 .footer .box-container .box  a{
@@ -382,12 +368,6 @@ background: #333;
     font-size: 1.5rem;
     text-align: center;
     line-height: 10px;
-    
-   
-   
-    
-    
-
 
 }
 
@@ -395,33 +375,13 @@ background: #333;
     display: block;
     color:#666;
     font-size: 20px;
-    margin:px 0;
-    
-  
-   
-  
+    margin:px 0;  
 }
-
-
 
 .footer .box-container .box a:hover{
     color: var(--pink);
-    text-decoration: underline;
-    
+    text-decoration: underline;    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
