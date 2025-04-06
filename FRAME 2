@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembagian Layar Vertikal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .top, .bottom {
+            height: 25%;
+            border: 1px solid; 
+        }
+        .middle {
+            height: 50%;
+            border: 1px solid pink;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+    <div class="top">Selamat datang di Matahari !!<br>Semoga matahari ini menyejukkan</div>
+    <div class="middle">Selamat datang di Venus!!<br>Ini sepertinya tempat dewi Venus</div>
+    <div class="bottom">Selamat datang di Mars!!<br>Sepertinya banyak alien di sini</div>
+    </table>
+
+</body>
+</html>
+
